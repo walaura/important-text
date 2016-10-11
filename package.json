@@ -1,10 +1,14 @@
 {
   "name": "important-text",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Makes text look 🌂 I M P O R T A N T 🦁",
   "main": "app.js",
   "bin": "app.js",
   "author": "Lau gonzalez",
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/lawwrr/important-text.git"
+  },
   "dependencies": {
     "command-line-args": "^3.0.1",
     "random-emoji": "^1.0.2"
