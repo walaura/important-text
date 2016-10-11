@@ -16,5 +16,5 @@ If you are feeling like this is something you really want to do often (why?) you
 
 ## Usage as a node module
 
-    const importantText = require('important-text');
-    importantText('they targeted gamers');
+    const importantize = require('important-text');
+    let manifesto = importantize('they targeted gamers');
