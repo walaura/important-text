@@ -1,0 +1,12 @@
+{
+  "name": "important-text",
+  "version": "0.0.1",
+  "description": "Makes text look 🌂 I M P O R T A N T 🦁",
+  "main": "app.js",
+  "bin": "app.js",
+  "author": "Lau gonzalez",
+  "dependencies": {
+    "command-line-args": "^3.0.1",
+    "random-emoji": "^1.0.2"
+  }
+}
