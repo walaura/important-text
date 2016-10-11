@@ -35,7 +35,10 @@ if(require.main === module) {
 	if(!options.text) {
 		throw 'Text argument is required'
 	}
-	console.log(importantize(options.text.join(' ')));
+	process.stdout.write(importantize(options.text.join(' ')));
+	if(process.stdout.isTTY) {
+		process.stdout.write("\n");
+	}
 }
 
 module.exports = importantize;
