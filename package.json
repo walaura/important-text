@@ -1,16 +1,21 @@
 {
   "name": "important-text",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Makes text look 🌂 I M P O R T A N T 🦁",
   "main": "app.js",
   "bin": "app.js",
   "author": "Lau gonzalez",
   "repository": {
-    "type":"git",
-    "url":"https://github.com/lawwrr/important-text.git"
+    "type": "git",
+    "url": "https://github.com/lawwrr/important-text.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
   },
   "dependencies": {
+    "chai": "^3.5.0",
     "command-line-args": "^3.0.1",
+    "mocha": "^3.1.2",
     "random-emoji": "^1.0.2"
   }
 }
