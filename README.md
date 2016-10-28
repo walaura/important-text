@@ -1,8 +1,6 @@
 # important-text
 Makes text look 🌂 I M P O R T A N T 🦁
 
-[ ![Codeship Status for lawwrr/important-text](https://app.codeship.com/projects/40a327f0-7f5f-0134-fcf9-3e760c99ae07/status?branch=master)](https://app.codeship.com/projects/181915)
-
 ## Usage from cli
 
     $ npm install -g important-text
@@ -20,3 +18,5 @@ If you are feeling like this is something you really want to do often (why?) you
 
     const importantize = require('important-text');
     let manifesto = importantize('they targeted gamers');
+
+[ ![Codeship Status for lawwrr/important-text](https://app.codeship.com/projects/40a327f0-7f5f-0134-fcf9-3e760c99ae07/status?branch=master)](https://app.codeship.com/projects/181915)
