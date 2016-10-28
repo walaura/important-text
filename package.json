@@ -6,11 +6,16 @@
   "bin": "app.js",
   "author": "Lau gonzalez",
   "repository": {
-    "type":"git",
-    "url":"https://github.com/lawwrr/important-text.git"
+    "type": "git",
+    "url": "https://github.com/lawwrr/important-text.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
   },
   "dependencies": {
+    "chai": "^3.5.0",
     "command-line-args": "^3.0.1",
+    "mocha": "^3.1.2",
     "random-emoji": "^1.0.2"
   }
 }
