@@ -7,7 +7,7 @@
   "author": "Lau gonzalez",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lawwrr/important-text.git"
+    "url": "https://github.com/walaura/important-text.git"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha"
