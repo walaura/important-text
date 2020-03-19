@@ -15,7 +15,7 @@
   "dependencies": {
     "chai": "^3.5.0",
     "command-line-args": "^3.0.1",
-    "mocha": "^3.1.2",
+    "mocha": "^7.1.1",
     "random-emoji": "^1.0.2"
   }
 }
